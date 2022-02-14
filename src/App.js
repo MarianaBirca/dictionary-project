@@ -15,7 +15,16 @@ function App() {
         <footer className="App-footer">
           <small>
             {" "}
-            This project was coded by Mariana Birca and is open-sourced on{" "}
+            Coded by
+            <a
+              href="https://mariana-birca.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Mariana Birca
+            </a>
+            , open-sourced on{" "}
             <a
               href="https://github.com/MarianaBirca/dictionary-project"
               target="_blank"

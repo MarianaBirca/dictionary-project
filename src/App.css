@@ -1,9 +1,20 @@
 body {
-  background: #f9f8fe;
+  background: linear-gradient(
+    109.6deg,
+    rgb(148, 219, 236) 10.2%,
+    rgb(216, 226, 253) 72.1%
+  );
+}
+h1 {
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 600;
 }
 
 a {
-  color: #9670f4;
+  color: #9167fa;
+}
+a:link {
+  text-decoration: none;
 }
 
 .App {
@@ -19,4 +30,6 @@ a {
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  font-family: "Monda", sans-serif;
+  font-size: 17px;
 }
